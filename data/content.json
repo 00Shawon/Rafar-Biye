@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "coupleNames": {
+      "en": "Rafa & Shawon",
+      "ar": "عائشہ اور ابراہیم"
+    },
+    "date": {
+      "en": "18 December 2024",
+      "ur": "۱۴ فروری ۲۰۲۶"
+    },
+    "blessing": {
+      "ar": "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا",
+      "en": "And of His signs is that He created for you from yourselves mates"
+    },
+    "videoPath": "akth-teaser.mp4",
+    "posterPath": "Akth/KSH06234.jpg"
+  },
+  
+  "brideReveal": {
+    "title": {
+      "en": "Our families said yes",
+      "ur": "ہمارے خاندانوں نے ہاں کہا"
+    },
+    "description": {
+      "en": "In that moment, two paths became one. A journey that began with uncertainty now walks forward with purpose, blessed by Allah and bound by love.",
+      "ur": "اس لمحے میں، دو راستے ایک ہو گئے۔ ایک سفر جو غیر یقینی سے شروع ہوا اب مقصد کے ساتھ آگے بڑھتا ہے"
+    },
+    "imagePath": "Akth/SFK07521.jpg"
+  },
+
+  "story": {
+    "title": {
+      "en": "Our Journey",
+      "ur": "ہمارا سفر"
+    },
+    "milestones": [
+      {
+        "year": "2019",
+        "title": {
+          "en": "The Beginning",
+          "ur": "آغاز"
+        },
+        "story": {
+          "en": "We met in the Pandamic when death was the new normal. Asolation was the cure. Loneliness was more common than the Coronavirus.We cured our lonliness with each other.",
+          "ur": "অনুসরণেই কেটে যাক দিন,আত্মভোলা সময় হোক,\nআমি হেটে যাবো আমার সমস্ত জীবন। \nতোমার পায়ে পা মিলাতে-\nনা হয় আমি গোটা পৃথিবী মাড়িয়ে আসবো।\nতোমাকে পাওয়া কাছে এ যাত্রা তুচ্ছেরও কম!"
+        },
+        "imagePath": "wedding/growing-and-flowing.jpg"
+      },
+      {
+        "year": "2021",
+        "title": {
+          "en": "Hard Time",
+          "ur": "ساتھ بڑھنا"
+        },
+        "story": {
+          "en": "Our 'Rag' was a final, bittersweet bloom. As university life faded, our adventure hit the wall of reality: traditional marriage was being forced on her and I was yet to figure out how to make it happen. Graduation wasn't a beginning; it was the start of a countdown of losing her.",
+          "ur": "ہماری 'ریگ' (Rag) ایک آخری، تلخ و شیریں بہار تھی۔ یونیورسٹی کی زندگی مدھم ہوئی تو ہماری محبت کی داستان حقیقت کی دیوار سے جا ٹکرائی: اس پر روایتی شادی کا دباؤ تھا اور میں اب تک اس ‘کیسے’ کے سوال میں الجھا ہوا تھا۔ گریجویشن کوئی آغاز نہیں تھا؛ یہ تو اسے کھو دینے کی الٹی گنتی کا آغاز تھا۔"
+        },
+        "imagePath": "wedding/grown.jpg"
+      },
+      {
+        "year": "2024",
+        "title": {
+          "en": "The Destination",
+          "ur": "مقصد"
+        },
+        "story": {
+          "en": "We were just like the couple in the background, today our relationship finds destination.The hard choices we made in the past lead us to this moment.Hopefully, this gamble will pay off the most.",
+          "ur": "ہم نے بھی بالکل پس منظر میں موجود اس جوڑے کی طرح آغاز کیا تھا۔ آج ہمارا رشتہ اپنی منزل کو پہنچ گیا ہے۔ ماضی میں کیے گئے مشکل فیصلے ہمیں اس لمحے تک لے آئے ہیں۔ امید ہے کہ یہ جوا ہماری زندگی کی سب سے خوبصورت جیت ثابت ہوگا۔"
+        },
+        "imagePath": "Wedding/destination.png"
+      }
+    ]
+  },
+
+  "footer": {
+    "thankYou": {
+      "en": "Thank you for being part of our journey. May Allah bless you all.",
+      "ur": "ہمارے سفر کا حصہ بننے کے لیے شکریہ۔ اللہ آپ سب کو برکت دے"
+    },
+    "photographer": "Photography by Studio Luminance",
+    "copyright": "© 2026 Rafa & Shawon. All rights reserved."
+  }
+}

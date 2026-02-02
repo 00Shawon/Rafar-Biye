@@ -1,0 +1,293 @@
+{
+  "ceremonies": [
+    {
+      "id": "akth",
+      "title": {
+        "en": "The Akth",
+        "ur": "عقد"
+      },
+      "subtitle": {
+        "en": "The Sacred Nikah",
+        "ur": "مقدس نکاح"
+      },
+      "date": {
+        "en": "17 December 2024",
+        "ur": "۱۷ دسمبر ۲۰۲۴"
+      },
+      "venue": {
+        "en": "Central Mosque, Khulna",
+        "ur": "مرکزی مسجد، کھلنا"
+      },
+      "description": {
+        "en": "In the serenity of the House of Allah, we formalized our union. The Akth ceremony was the signing of our eternal contract (Nikah), a moment of pure devotion where we pledged our lives to one another under the guidance of our faith.",
+        "ur": "اللہ کے گھر کے سکون میں، ہم نے اپنے اتحاد کو رسمی شکل دی۔ عقد کی تقریب ہمارے ابدی معاہدے (نکاح) پر دستخط تھی، خالص عقیدت کا ایک لمحہ جہاں ہم نے اپنے ایمان کی رہنمائی میں ایک دوسرے سے اپنی زندگیاں کرنے کا عہد کیا"
+      },
+      "culturalNote": {
+        "en": "The Nikah is the heart of an Islamic wedding—a sacred contract signed in the presence of witness to legalize the marriage in the eyes of God.",
+        "ur": "نکاح اسلامی شادی کا دل ہے—ایک مقدس معاہدہ جو گواہوں کی موجودگی میں دستخط کیا جاتا ہے تاکہ خدا کی نظر میں شادی کو قانونی حیثیت دی جا سکے"
+      },
+      "heroImage": "Akth/SFK07551.jpg",
+      "galleryImages": [
+        "Akth/KSH06234.jpg",
+        "Akth/KSH06237.jpg",
+        "Akth/SFK07471.jpg",
+        "Akth/KSH06263.jpg",
+        "Akth/KSH06333.jpg",
+        "Akth/KSH06371.jpg",
+        "Akth/KSH06456.jpg",
+        "Akth/KSH06505.jpg",
+        "Akth/KSH06477.jpg",
+        "Akth/KSH06396.jpg",
+        "Akth/SFK07544.jpg",
+        "Akth/SFK07521.jpg"
+      ],
+      "accentColor": "clay",
+      "dua": {
+        "ar": "بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+        "en": "May Allah bless you, shower His blessings upon you, and join you together in goodness"
+      },
+      "flow": [
+        {
+          "beat": "Arrival",
+          "title": {
+            "en": "Gathering at the Mosque",
+            "ur": "مسجد میں اجتماع"
+          },
+          "description": {
+            "en": "Family and friends gathered in the courtyard. A hushed anticipation filled the air as we prepared to enter the prayer hall.",
+            "ur": "خاندان اور دوست صحن میں جمع ہوئے۔ جب ہم نماز گاہ میں داخل ہونے کی تیاری کر رہے تھے تو ہوا میں ایک خاموش توقع بھر گئی"
+          },
+          "images": ["Akth/SFK07472.jpg", "Akth/KSH06263.jpg"]
+        },
+        {
+          "beat": "Recitation",
+          "title": {
+            "en": "Words of Divine Wisdom",
+            "ur": "الہی حکمت کے الفاظ"
+          },
+          "description": {
+            "en": "The Imam recited verses from the Quran, reminding us of the sanctity of marriage and the rights of one another.",
+            "ur": "امام نے قرآن کی آیات کی تلاوت کی، ہمیں شادی کی تقدس اور ایک دوسرے کے حقوق کی یاد دلائی"
+          },
+          "images": ["Akth/KSH06587.jpg", "Akth/KSH06679.jpg"]
+        },
+        {
+          "beat": "The Contract",
+          "title": {
+            "en": "The Signing (Nikah)",
+            "ur": "نکاح نامہ پر دستخط"
+          },
+          "description": {
+            "en": "With bismillah, the pen touched the paper. The contract was signed, sealing our promise in ink and intention.",
+            "ur": "بسم اللہ کے ساتھ، قلم نے کاغذ کو چھوا۔ معاہدہ دستخط کیا گیا، سیاہی اور نیت میں ہمارے وعدے کو مہر لگا دی"
+          },
+          "images": ["Akth/SFK07535.jpg", "Akth/SFK07544.jpg"]
+        },
+        {
+          "beat": "Dua",
+          "title": {
+            "en": "Blessings from Elders",
+            "ur": "بزرگوں کی دعائیں"
+          },
+          "description": {
+            "en": "Hands raised in prayer. Tears of gratitude. The elders blessed us, their duas weaving a protective canopy over our future.",
+            "ur": "دعا میں ہاتھ اٹھائے۔ شکرگزاری کے آنسو۔ بزرگوں نے ہمیں دعا دی، ان کی دعائیں ہمارے مستقبل پر ایک حفاظتی سایہ بن گئیں"
+          },
+          "images": ["Akth/KSH06643.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "wedding",
+      "title": {
+        "en": "The Wedding",
+        "ur": "شادی"
+      },
+      "subtitle": {
+        "en": "The Grand Celebration",
+        "ur": "عظیم الشان جشن"
+      },
+      "date": {
+        "en": "18 December 2024",
+        "ur": "۱۸ دسمبر ۲۰۲۴"
+      },
+      "venue": {
+        "en": "The Grand Hall, Khulna",
+        "ur": "دی گرینڈ ہال، کھلنا"
+      },
+      "description": {
+        "en": "Following the sacred Nikah, we gathered to celebrate our union with joy and festivity. The Wedding Reception was a vibrant tapestry of laughter, food, and shared happiness with all our loved ones.",
+        "ur": "مقدس نکاح کے بعد، ہم خوشی اور جشن کے ساتھ اپنے اتحاد کو منانے کے لیے جمع ہوئے۔ شادی کا استقبالیہ ہمارے تمام عزیزوں کے ساتھ ہنسی، کھانے اور مشترکہ خوشی کا ایک متحرک نمونہ تھا"
+      },
+      "culturalNote": {
+        "en": "The Wedding Reception (Walima or similar celebration) is the time for the community to come together, feast, and publicly celebrate the newly married couple.",
+        "ur": "شادی کا استقبالیہ (ولیمہ یا اس طرح کی تقریب) کمیونٹی کے لیے اکٹھے ہونے، دعوت دینے اور عوامی طور پر نئے شادی شدہ جوڑے کو منانے کا وقت ہے"
+      },
+      "heroImage": "Wedding/KSH07793.jpg",
+      "galleryImages": [
+        "Wedding/KSH07771.jpg",
+          "Wedding/KSH07902.jpg",
+        "Wedding/KSH07764.jpg",
+        "Wedding/KSH07921.jpg",
+        "Wedding/KSH07842.jpg",
+        "Wedding/KSH08401.jpg",
+        "Wedding/KSH08385.jpg",
+        "Wedding/KSH07801.jpg",
+        "Wedding/KSH08409.jpg",
+        "Wedding/KSH08371.jpg",
+        "Wedding/KSH07852.jpg",
+        "Wedding/SFK07714.jpg"
+      
+      ],
+      "accentColor": "deep-wine",
+      "dua": {
+        "ar": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ",
+        "en": "Our Lord, grant us from among our spouses and offspring comfort to our eyes"
+      },
+      "flow": [
+        {
+          "beat": "Entrance",
+          "title": {
+            "en": "A Royal Entrance",
+            "ur": "شاہانہ داخلہ"
+          },
+          "description": {
+            "en": "Walking into the hall, hand in hand. The lights, the smiles, the overwhelming love that greeted us.",
+            "ur": "ہال میں داخل ہوتے ہوئے، ہاتھ میں ہاتھ۔ روشنیاں، مسکراہٹیں، وہ بے پناہ محبت جس نے ہمارا استقبال کیا"
+          },
+          "images": ["Wedding/KSH07972.jpg","Wedding/KSH08004 (1).jpg"]
+        },
+        {
+          "beat": "Celebration",
+          "title": {
+            "en": "Moments on Stage",
+            "ur": "سٹیج پر لمحات"
+          },
+          "description": {
+            "en": "Seated together, watching two families become one. A flurry of photos, gifts, and heartfelt congratulations.",
+            "ur": "ساتھ بیٹھے، دو خاندانوں کو ایک ہوتے دیکھ رہے ہیں۔ تصاویر، تحائف اور دلی مبارکبادوں کا طوفان"
+          },
+          "images": ["Wedding/KSH08367.jpg", "Wedding/KSH08395.jpg"]
+        },
+        {
+          "beat": "Escape",
+          "title": {
+            "en": "Outdoor Photoshoot",
+            "ur": "اگری پوٹو شو"
+          },
+          "description": {
+            "en": "We escaped the hustle and bustle of the wedding to capture the essence of our love in candid moments in Khulna University. Where we met and started our journey together.",
+            "ur": "ہم شادی کے دھکڑے کو پھرکے گئے اور ایکٹھے ہوتے ہیں۔ تصاویر، تحائف اور دلی مبارکبادوں کا طوفان"
+          },
+          "images": ["Wedding/KSH07908.jpg", "Wedding/KSH07902.jpg", "Wedding/KSH07858.jpg", "Wedding/KSH07868.jpg"]
+        },
+        {
+          "beat": "Together",
+          "title": {
+            "en": "Beginning of Forever",
+            "ur": "ہمیشہ کی شروعات"
+          },
+          "description": {
+            "en": "The hands that raised her let go, so the hands that will cherish her can hold on. A daughter departs as a living legacy, a treasure entrusted from one heart’s sanctuary to another.",
+           "ur": "باپ کی تھرتھراتی آواز جیسے کہہ رہی تھی: 'میں اپنے دل کا ٹکڑا تمہارے ذمے کر رہا ہوں۔ آج تک یہ میری انا تھی، اور اس سانس کے بعد سے یہ تمہاری عزت ہے۔'"
+          },
+          "images": ["Wedding/biday1.png","Wedding/Screenshot 2026-02-02 132750.png", "Wedding/biday2.png","Wedding/Screenshot 2026-02-02 131700.png"]
+        }
+      ]
+    },
+    {
+      "id": "holud",
+      "title": {
+        "en": "The Holud",
+        "ur": "ہلدی"
+      },
+      "subtitle": {
+        "en": "Colors of Joy",
+        "ur": "خوشی کے رنگ"
+      },
+      "date": {
+        "en": "16 December 2024",
+        "ur": "۱۶ دسمبر ۲۰۲۴"
+      },
+      "venue": {
+        "en": "Family Home, Khulna",
+        "ur": "خاندانی گھر، کھلنا"
+      },
+      "description": {
+        "en": "A vibrant pre-wedding celebration where turmeric paste blessed our union. Surrounded by laughter, music, and the warmth of family, this ancient tradition brought color and joy to our journey.",
+        "ur": "شادی سے پہلے کا ایک متحرک جشن جہاں ہلدی کے لیپ نے ہمارے اتحاد کو برکت دی۔ ہنسی، موسیقی، اور خاندان کی گرمجوشی سے گھرے، اس قدیم روایت نے ہمارے سفر میں رنگ اور خوشی لائی"
+      },
+      "culturalNote": {
+        "en": "Holud (Gaye Holud) is a festive tradition where family and friends apply turmeric paste to the couple for purification and glowing skin.",
+        "ur": "ہلدی (گائے ہلدی) ایک تہوار کی روایت ہے جہاں خاندان اور دوست جوڑے کو پاکیزگی اور چمکتی جلد کے لیے ہلدی کا لیپ لگاتے ہیں"
+      },
+      "heroImage": "Holud/KSH07294.jpg",
+      "galleryImages": [
+        "Holud/KSH07197.jpg",
+        "Holud/KSH07143.jpg",
+        "Holud/KSH06971.jpg",
+        "Holud/KSH07012.jpg",
+        "Holud/KSH07152.jpg",
+        "Holud/KSH07157.jpg",
+        "Holud/KSH07119.jpg",
+        "Holud/KSH07211.jpg",
+        "Holud/KSH07031.jpg",
+        "Holud/KSH07620.jpg",
+        "Holud/KSH07617.jpg",
+        "Holud/KSH07733 (1).jpg",
+        "Holud/KSH07136.jpg"
+      ],
+      "accentColor": "saffron",
+      "flow": [
+        {
+          "beat": "Setup",
+          "title": {
+            "en": "Golden Decor",
+            "ur": "سنہری سجاوٹ"
+          },
+          "description": {
+            "en": "Marigolds hung like prayers. Yellow filled every corner, as if the sun itself descended to bless.",
+            "ur": "گیندے کے پھول دعاؤں کی طرح لٹکے۔ پیلا رنگ ہر کونے میں، جیسے سورج خود برکت دینے اتر آیا"
+          },
+          "images": ["Holud/Holud_stage.jpg","Holud/KSH07294.jpg"]
+        },
+        {
+          "beat": "Ritual",
+          "title": {
+            "en": "The Turmeric Touch",
+            "ur": "ہلدی کا لمس"
+          },
+          "description": {
+            "en": "Elders dipped hands into turmeric. The paste, warm and fragrant, marked the skin with ancient blessings.",
+            "ur": "بزرگوں نے ہلدی میں ہاتھ ڈبویے۔ گرم اور خوشبودار لیپ نے جلد پر قدیم برکتوں کے نشان لگائے"
+          },
+          "images": [ "Holud/IMG-20241215-WA0525.jpg","Holud/IMG-20241215-WA0592.jpg"]
+        },
+        {
+          "beat": "Festivity",
+          "title": {
+            "en": "Groom came to holud",
+            "ur": "ہلدی میں دولہے کی آمد"
+          },
+          "description": {
+            "en": "Shawon came with his friends and family with gifts and joined the celebration with his soon to be wife.",
+            "ur": "شاون اپنے دوستوں اور خاندان کے ساتھ تحائف لے کر آیا اور اپنی ہون ے والی بیوی کے ساتھ جشن میں شامل ہوا۔"
+          },
+          "images": ["Holud/KSH07615.jpg", "Holud/KSH07617.jpg"]
+        },
+        {
+          "beat": "Close",
+          "title": {
+            "en": "Radiant & Ready",
+            "ur": "چمکدار اور تیار"
+          },
+          "description": {
+            "en": "The night ended with us glowing, surrounded by the love that would carry us to our wedding day.",
+            "ur": "رات اس بات پر ختم ہوئی کہ ہم چمک رہے تھے، اس محبت سے گھرے ہوئے جو ہمیں ہماری شادی کے دن تک لے جائے گی"
+          },
+          "images": ["Holud/fireworkjpg.jpg"]
+        }
+      ]
+    }
+  ]
+}
