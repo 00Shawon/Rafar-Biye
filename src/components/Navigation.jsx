@@ -4,8 +4,10 @@ import { motion, AnimatePresence, useScroll } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { playHoverSound, playClickSound, initAudio } from '@/lib/sounds'
 import { getHeroContent } from '@/lib/getData'
+import { useRouter, usePathname } from 'next/navigation'
 
 const navItems = [
+  { label: 'Design Philosophy', labelUrdu: 'ڈیزائن کا فلسفہ', href: '/design-philosophy' },
   { label: 'Home', labelUrdu: 'ہوم', href: '#home' },
   { label: 'Our Story', labelUrdu: 'ہماری کہانی', href: '#story' },
   { label: 'Akth', labelUrdu: 'عقد', href: '#akth' },
@@ -13,7 +15,7 @@ const navItems = [
   { label: 'Holud', labelUrdu: 'ہلدی', href: '#holud' },
   { label: 'Gallery', labelUrdu: 'گیلری', href: '#gallery' },
   { label: 'Blessings', labelUrdu: 'دعائیں', href: '#duas' },
-  { label: 'Messages', labelUrdu: 'پیغامات', href: '#messages' },
+  { label: 'Messages', labelUrdu: 'پیغامات', href: '#messages' }, 
 ]
 
 export default function Navigation() {
@@ -23,6 +25,8 @@ export default function Navigation() {
   const [activeSection, setActiveSection] = useState('home')
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const heroData = getHeroContent()
+  const router = useRouter()
+  const pathname = usePathname()
 
   // Hide nav on scroll down, show on scroll up
   useEffect(() => {
@@ -39,6 +43,11 @@ export default function Navigation() {
   // Track active section
   useEffect(() => {
     initAudio()
+
+    if (pathname === '/design-philosophy') {
+      setActiveSection('design-philosophy')
+      return
+    }
 
     const handleScroll = () => {
       const sections = navItems.map(item => item.href.replace('#', ''))
@@ -75,6 +84,19 @@ export default function Navigation() {
     setMobileMenuOpen(false)
   }
 
+  const handleNavClick = (href) => {
+    playClickSound()
+    if (href.startsWith('#')) {
+      if (pathname !== '/') {
+        router.push('/' + href)
+      } else {
+        scrollToSection(href)
+      }
+    } else {
+      router.push(href)
+    }
+  }
+
   return (
     <>
       {/* Fixed Navigation */}
@@ -102,10 +124,7 @@ export default function Navigation() {
                 return (
                   <button
                     key={item.href}
-                    onClick={() => {
-                      playClickSound()
-                      scrollToSection(item.href)
-                    }}
+                    onClick={() => handleNavClick(item.href)}
                     onMouseEnter={() => playHoverSound()}
                     className={`font-body text-small uppercase tracking-wide transition-colors relative group py-2 ${
                       isActive ? 'text-graphite' : 'text-graphite/60 hover:text-graphite'
@@ -180,11 +199,9 @@ export default function Navigation() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.3, delay: index * 0.05 }}
                     onClick={() => {
-                      playClickSound()
-                      scrollToSection(item.href)
-                      setMobileMenuOpen(false)
+                      handleNavClick(item.href)
                     }}
-                    className="font-display text-4xl text-onyx hover:text-clay transition-colors"
+                    className="font-display text-2xl md:text-3xl text-onyx hover:text-clay transition-colors w-full text-left"
                   >
                     <div className="flex items-center justify-between">
                       <span className="font-body text-body uppercase tracking-wide">

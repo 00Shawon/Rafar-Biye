@@ -10,6 +10,7 @@ import Navigation from '@/components/Navigation'
 import ScrollProgress from '@/components/ScrollProgress'
 import BackToTop from '@/components/BackToTop'
 import SectionDivider from '@/components/SectionDivider'
+import Footer from '@/components/Footer'
 import { getAllCeremonies } from '@/lib/getData'
 
 export default function Home() {
@@ -42,8 +43,7 @@ export default function Home() {
         </div>
         
         <SectionDivider variant="line" accentColor="clay" />
-         <div id="home">
-         
+         <div className="relative">
           <BrideReveal />
         </div>
         
@@ -91,6 +91,7 @@ export default function Home() {
           <MessageBoard />
         </div>
       </main>
+      <Footer />
     </>
   )
 }

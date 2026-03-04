@@ -46,8 +46,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable} ${amiri.variable} ${galada.variable}`}>
       <body className="antialiased bg-bone text-graphite">
-        <PageLoader />
         <CustomCursor />
+        <PageLoader />
         {children}
       </body>
     </html>

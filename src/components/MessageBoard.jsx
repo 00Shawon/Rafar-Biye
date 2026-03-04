@@ -19,7 +19,7 @@ export default function MessageBoard() {
     fetchMessages()
   }, [])
 
-  const fetchMessages = async () => {
+  async function fetchMessages() {
     try {
       const { data } = await supabase
         .from('messages')

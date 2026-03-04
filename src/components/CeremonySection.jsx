@@ -213,7 +213,7 @@ export default function CeremonySection({ ceremony }) {
                       </div>
 
                       {/* Beat Card */}
-                      <div className={`flex flex-col ${isEven ? 'md:items-end' : 'md:items-start'} gap-6`}>
+                      <div className={`flex flex-col-reverse ${isEven ? 'md:flex-col md:items-end' : 'md:flex-col md:items-start'} gap-6`}>
                         {/* Images */}
                         {beat.images && beat.images.length > 0 && (
                           <div className={`w-full grid ${beat.images.length === 1 ? 'grid-cols-1' : 'grid-cols-2'} gap-4`}>

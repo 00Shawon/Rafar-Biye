@@ -1,0 +1,42 @@
+
+C:\projects\Business\Product Rafa\src\components\CeremonySection.jsx
+  154:15  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  154:41  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\projects\Business\Product Rafa\src\components\LogoReveal.jsx
+  108:13  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  108:59  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  114:16  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\projects\Business\Product Rafa\src\components\MessageBoard.jsx
+  19:5  error  Error: Cannot access variable before it is declared
+
+`fetchMessages` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  17 |
+  18 |   useEffect(() => {
+> 19 |     fetchMessages()
+     |     ^^^^^^^^^^^^^ `fetchMessages` accessed before it is declared
+  20 |   }, [])
+  21 |
+  22 |   const fetchMessages = async () => {
+
+  20 |   }, [])
+  21 |
+> 22 |   const fetchMessages = async () => {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |     try {
+     | ^^^^^^^^^
+> 24 |       const { data } = await supabase
+     …
+     | ^^^^^^^^^
+> 34 |     }
+     | ^^^^^^^^^
+> 35 |   }
+     | ^^^^ `fetchMessages` is declared here
+  36 |
+  37 |   const handleSubmit = async (e) => {
+  38 |     e.preventDefault()  react-hooks/immutability
+
+✖ 6 problems (6 errors, 0 warnings)
+

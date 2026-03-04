@@ -16,7 +16,7 @@ function TimelineMoment({ moment, index }) {
   const storyIsBangla = isBangla(moment.story.ur)
 
   return (
-    <div className={`grid md:grid-cols-12 gap-8 md:gap-16 mb-32 last:mb-0 ${isEven ? '' : 'md:flex-row-reverse'}`}>
+    <div className={`flex flex-col-reverse md:grid md:grid-cols-12 gap-8 md:gap-16 mb-32 last:mb-0 ${isEven ? '' : 'md:flex-row-reverse'}`}>
       {/* Image Column */}
       <div className={`md:col-span-7 ${isEven ? '' : 'md:col-start-6'}`}>
         <div className="relative aspect-[4/6] overflow-hidden">

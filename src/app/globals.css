@@ -139,6 +139,13 @@ body {
   overflow-x: hidden;
 }
 
+/* Hide default cursor on desktop where custom cursor is active */
+@media (min-width: 1024px) {
+  body, a, button, [role="button"] {
+    cursor: none;
+  }
+}
+
 /* Better font rendering */
 * {
   -webkit-font-smoothing: antialiased;
